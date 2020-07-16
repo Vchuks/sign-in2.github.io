@@ -1,0 +1,30 @@
+.body{
+	
+  background-image:  url("asset/imgs/people.png"); 
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height:704px;/* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  width: 100%; margin-top: 40px; padding-top: 100px;
+}
+
+form {
+	width: 641px; height:480px; margin: auto; background-color: #c4c4c4; opacity: 0.9;
+	padding: 70px; color: #D8315B; border-radius: 30px;  max-width: 100%; padding-top: 20px; ;
+    max-height: 100%; border: 1px solid #0A2463;
+}
+
+p{margin-left:130px; margin-top:10px; font-size:14px}
+
+@media only screen and (max-width: 600px){
+	form{
+		width: 90%; padding:10px;
+	}
+	
+	p{margin-left: 25px;}
+
+
+}
+
+
